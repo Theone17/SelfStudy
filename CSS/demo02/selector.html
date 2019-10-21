@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pseudo-Class</title>
+  <style>
+    a:link {color: #666;} /* 未进行交互时显示的样式 */
+    a:visited {color: #f00;} /* 已点击 */
+    a:hover {color: #000;} /* 鼠标移入时 */
+    a:active {color: #0f0;} /* 鼠标点击不放时 */
+
+    input:enabled {background-color: #0f0;} /* 可用 */
+    input:disabled {background-color: #f00;} /* 不可用 */
+  </style>
+</head>
+<body>
+  <!-- 动态伪类选择器 -->
+  <a href="">Pseudo class</a><br>
+  <hr>
+  
+  <!-- UI元素状态伪类选择器 -->
+  <input type="text"><br>
+  <input type="text" disabled>
+</body>
+</html>
