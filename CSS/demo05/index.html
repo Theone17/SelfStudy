@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>border-radius</title>
+  <style type="text/css">
+    /* border-radius 画圆 */
+    .demo1 {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ccc;
+      background-color: #f66;
+      margin: 50px auto;
+      /* border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%; */
+      border-radius: 50% 50% 50% 50%;
+    }
+    /* 半圆 */
+    .demo2 {
+      width: 100px;
+      height: 200px;
+      border: 1px solid #ccc;
+      background-color: #0f0;
+      margin: 50px auto;
+      border-radius: 100px 0 0 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="demo1"></div>
+  <div class="demo2"></div>
+</body>
+</html>
