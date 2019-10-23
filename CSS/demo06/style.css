@@ -1,0 +1,33 @@
+/* index 三角形 */
+.sanjiao {
+  border: 50px solid #f66;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  width: 0;
+  height: 0;
+  margin: 50px auto;
+}
+
+/* index2 对话框 */
+.dialog {
+  background-color: #6a6;
+  margin: 50px auto;
+  width: 300px;
+  height: 25px;
+  line-height: 25px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  position: relative;
+}
+.dialog::before {
+  content: '';
+  border-left: 0px solid #6a6;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #6a6;
+  position: absolute;
+  left: -10px;
+  top: 14px;
+}
