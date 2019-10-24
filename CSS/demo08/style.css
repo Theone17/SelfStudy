@@ -1,0 +1,47 @@
+/* 五角星 */
+#star {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  margin: 150px auto;
+  -webkit-transform: rotate(35deg);
+     -moz-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+       -o-transform: rotate(35deg);
+          transform: rotate(35deg);
+  position: relative;
+}
+#star::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  -webkit-transform: rotate(-35deg);
+     -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+       -o-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  top: -45px;
+  left: -65px;
+}
+#star::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  -webkit-transform: rotate(-70deg);
+     -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+       -o-transform: rotate(-70deg);
+          transform: rotate(-70deg);
+  top: 3px;
+  left: -105px;
+}
