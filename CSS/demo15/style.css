@@ -1,0 +1,9 @@
+.ceng {
+  width: 260px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: -webkit-linear-gradient(right, orange 100px, green 60%, red 100%);
+  background-image: -moz-linear-gradient(right, orange 100px, green 60%, red 100%);
+  background-image: -o-linear-gradient(right, orange 100px, green 60%, red 100%);
+  background-image: linear-gradient(to left, orange 100px, green 60%, red 100%);
+}
