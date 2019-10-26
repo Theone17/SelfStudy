@@ -1,0 +1,150 @@
+.rect {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: fixed;
+  -webkit-animation: mymove 4s infinite;
+     -moz-animation: mymove 4s infinite;
+       -o-animation: mymove 4s infinite;
+          animation: mymove 4s infinite;
+}
+@-webkit-keyframes mymove {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 80%;
+  } */
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 80%;
+    background-color: pink;
+  }
+  50% {
+    top: 80%;
+    left: 80%;
+    background-color: green;
+  }
+  75% {
+    top: 80%;
+    left: 0;
+    background-color: blue;
+  }
+  100% {
+    top: 0%;
+    left: 0;
+    background-color: red;
+  }
+}
+@-moz-keyframes mymove {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 80%;
+  } */
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 80%;
+    background-color: pink;
+  }
+  50% {
+    top: 80%;
+    left: 80%;
+    background-color: green;
+  }
+  75% {
+    top: 80%;
+    left: 0;
+    background-color: blue;
+  }
+  100% {
+    top: 0%;
+    left: 0;
+    background-color: red;
+  }
+}
+@-o-keyframes mymove {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 80%;
+  } */
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 80%;
+    background-color: pink;
+  }
+  50% {
+    top: 80%;
+    left: 80%;
+    background-color: green;
+  }
+  75% {
+    top: 80%;
+    left: 0;
+    background-color: blue;
+  }
+  100% {
+    top: 0%;
+    left: 0;
+    background-color: red;
+  }
+}
+@keyframes mymove {
+  /* from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 80%;
+  } */
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 80%;
+    background-color: pink;
+  }
+  50% {
+    top: 80%;
+    left: 80%;
+    background-color: green;
+  }
+  75% {
+    top: 80%;
+    left: 0;
+    background-color: blue;
+  }
+  100% {
+    top: 0%;
+    left: 0;
+    background-color: red;
+  }
+}
