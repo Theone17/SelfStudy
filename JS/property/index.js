@@ -15,7 +15,7 @@ delete Object.prototype;
 console.log(delete Object.prototype);
 
 var descriptor = Object.getOwnPropertyDescriptor(Object, 'prototype');
-// configurable属性标签是否暂可被修改
+// configurable属性标签暂时是否可被修改
 descriptor.configurable;
 console.log(descriptor.configurable);
 // var定义的全局变量和局部变量仍然不能被删除，函数声明同理，但隐式创建的全局变量可以被delete删除
